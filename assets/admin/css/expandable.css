@@ -1,0 +1,49 @@
+/*
+Admin css
+*/
+
+.pg-expandable{}
+.pg-expandable .items{}
+.pg-expandable .items {
+	background: none repeat scroll 0 0 rgb(255, 255, 255);
+	border-bottom: 1px solid rgb(153, 153, 153);
+	margin: 2px 0;
+}
+.pg-expandable  .header {
+	background: #a7e1ff none repeat scroll 0 0;
+	padding: 10px;
+}
+
+.pg-expandable .header .move {
+	padding: 10px;
+	cursor: move;
+}
+
+.pg-expandable .header .expand-collapse{padding: 10px;cursor: pointer;}
+.pg-expandable .header .expand-collapse .fa-expand{ display:inline-block;}
+.pg-expandable .header .expand-collapse .fa-compress{ display:none;}
+.pg-expandable .header .items.active .expand-collapse .fa-expand{ display:none;}
+.pg-expandable .header .items.active .expand-collapse .fa-collapse{ display:inline-block;}
+
+
+
+
+.pg-expandable .active .options {
+  
+	display: block;
+
+}
+.pg-expandable .options {
+	background: none repeat scroll 0 0 rgb(240, 240, 240);
+	display: none;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
